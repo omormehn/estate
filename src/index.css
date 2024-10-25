@@ -17,9 +17,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.icons > * {
+    cursor: pointer;
+}
+
 @layer components {
     .primary-btn {
-        @apply inline-block bg-primary text-white font-semibold rounded-lg duration-200 shadow-[0px_10px_8px_-7px_#ffd978] py-2 px-6;
+        @apply inline-block bg-primary text-white font-semibold rounded-lg duration-200  py-2 px-6;
         &:hover {
             @apply bg-blue
         }

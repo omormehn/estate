@@ -20,11 +20,11 @@ const About = () => {
           className="container py-12 grid lg:grid-cols-2"
         >
           {/* About left */}
-          <img src="./about/about.png" className="rounded-3xl pt-8  " alt="" />
+          <img src="./about/about.png" className="rounded-3xl pt-8" alt="" />
           {/* About right */}
-          <div ref={ref} className="lg:px-4>
+          <div ref={ref} className="lg:px-4">
             <div className="container text-end top-8">
-              <h1 className=" section-subtitle">About Us</h1>
+              <h1 className="section-subtitle">About Us</h1>
             </div>
             <h2 className="text-2xl md:text-3xl lg:text-3xl xl:text-5xl font-serif font-semibold lg:leading-snug my-2">
               The Leading Real Estate Rental Marketplace.

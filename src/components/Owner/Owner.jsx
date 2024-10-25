@@ -1,7 +1,7 @@
 
 import useInViewHook from "../../utils/inView";
 import { motion } from "framer-motion";
-import { FadeInFromBottom, FadeInFromLeft, FadeInFromTop } from "../../utils/motion";
+import { FadeInFromLeft } from "../../utils/motion";
 
 
 const Owner = () => {
@@ -24,26 +24,7 @@ const Owner = () => {
             </p>
           </motion.div>
 
-          <div className="grid container ">
-            <motion.div
-              variants={FadeInFromLeft(0.6)}
-              initial="initial"
-              animate={inView ? "animate" : "initial"}
-              className="flexCenter  flex-col-reverse w-[65%] mt-14 ml-16 "
-            >
-              <div className="lg:absolute rounded-2xl w-[60vw] h-[15vh] md:w-[50vh] md:h-[18vh] lg:w-[60vh] lg:h-[20vh] bg-[#0D39A9] lg:mr-96 flex flex-col gap-1 justify-center text-white ">
-                <h1 className="ml-4 font-bold text-2xl">CEO</h1>
-                <span className="ml-4 text-xl ">Ephraim Benjamin</span>
-              </div>
-              {/* Image */}
-              <div className="image-con z-0">
-                <img
-                  src="./owner/test.png"
-                  alt=""
-                  className="h-full w-full rounded-full"
-                />
-              </div>
-            </motion.div>
+          <div className=" container ">
             {/* card */}
             <div className="relative right-5 lg:py-8 m-auto lg:pr-72 border-2 border-l-8 border-l-black mt-8 shadow-c">
               <motion.div
